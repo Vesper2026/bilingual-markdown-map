@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bilingual-markdown-map"
+version = "0.1.0"
+description = "Local structural mapping of two Markdown documents without semantic scoring"
+requires-python = ">=3.10"
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+bilingual-map = "bilingual_map:main"
+
+[tool.setuptools]
+py-modules = ["bilingual_map"]

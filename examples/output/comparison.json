@@ -1,0 +1,60 @@
+{
+  "notice": "Structural review only, not a semantic or translation-quality assessment. Order-based pairing can misalign after omissions; use an explicit index map.",
+  "mode": "order",
+  "pairs": [
+    {
+      "source": {
+        "index": 1,
+        "title": "Methods",
+        "level": 1,
+        "line": 1,
+        "code_languages": [
+          "python"
+        ],
+        "math_blocks": 1,
+        "images": [
+          "review-flow.png"
+        ],
+        "links": [
+          "https://www.kolmopdf.com/pdf-to-markdown"
+        ]
+      },
+      "target": {
+        "index": 1,
+        "title": "方法",
+        "level": 1,
+        "line": 1,
+        "code_languages": [
+          "python"
+        ],
+        "math_blocks": 1,
+        "images": [],
+        "links": [
+          "https://www.kolmopdf.com/pdf-to-markdown"
+        ]
+      },
+      "review_items": [
+        {
+          "field": "images",
+          "source": [
+            "review-flow.png"
+          ],
+          "target": []
+        }
+      ]
+    }
+  ],
+  "source_unpaired": [
+    {
+      "index": 2,
+      "title": "Results",
+      "level": 1,
+      "line": 15,
+      "code_languages": [],
+      "math_blocks": 0,
+      "images": [],
+      "links": []
+    }
+  ],
+  "target_unpaired": []
+}
